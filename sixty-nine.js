@@ -1,0 +1,18 @@
+var randomBodyParts = ["глаз","нос","череп"];
+var randomAdjectives = ["вонючая","унылая","дурацкая"];
+var randomWords = ["муха","выдра","дубина","мартышка","крыса"];
+var randomAnimalParts = ["морда","лапы","уши"];
+var randomAnimals = ["слона","мухи","хомяк"];
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+var randomAnimalPart = randomAnimalParts[Math.floor(Math.random() * 3)];
+var randomAnimal = randomAnimals[Math.floor(Math.random() * 3)];
+var randomWord = randomWords[Math.floor(Math.random()*5)];
+var randomInsult = "У тебя " + randomBodyPart + " словно " + randomAdjective + " " + randomWord + "!!!";
+var randomInsult1 = "У тебя " + randomBodyPart +"еще более"+randomAdjective  + "чем" +randomAnimalPart + "у" +randomWord;
+var randomInsult2 = ["У тебя " , randomBodyPart ,"еще более",randomAdjective  , "чем" ,randomAnimalPart , "у" ,randomWord].join(" ");
+randomInsult;
+randomInsult1;
+randomInsult2;
+var mas = [3, 2, 1];
+mas.join(" больше, чем ");
